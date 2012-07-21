@@ -1,0 +1,18 @@
+[v2.2]
+
+-upgraded to TWRP-2.2
+-fixed storage mounts
+-added some tweaks to the terminal emulator
+-bugfixes
+-preflight for open-recovery-scripting
+
+
+# This includes a prebuilt, stripped-down kernel image
+#
+# Thanks to Roach2010 for this. Without it, I would have to build my own recovery kernel.
+#
+# Changes & Fixes exclusively for TF101 in /gui/devices/1280x800/res/ui.xml
+#
+# My additions are commented in xml like this : <!--'fix note'-->
+#
+# BoardConfig.mk needed with TWRP compile flags by me

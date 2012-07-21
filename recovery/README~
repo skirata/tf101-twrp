@@ -1,0 +1,16 @@
+What fixes did I do ?
+
+- Only file changed is /gui/devices/1280x800/res/ui.xml
+
+What did I change there ?
+
+- In the 'main' page, in the oject 'button (-> backup)', do insert the correct action to refresh the sizes. (function refreshsizes usually)
+
+- In the 'mount' page, in the 'radio button' for internal storage, insert the correct action do unmount the external SD card when internal storage is used.
+
+- In the 'mount' page, in the 'radio button' for external storage, insert the correct action do mount the external SD card when external storage is used.
+
+- In the 'main' page, in the object 'button (-> backup)', do insert the correct action to set the data of tw_backup_boot=0.
+  This makes the boot partition to not backing up by default.
+
+- In the 'backup' page, delete the whole corresponding 'boot' checkbox. We don't need it. More user friendly this way.
